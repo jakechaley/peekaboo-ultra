@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Peek-a-boo</title>
+  </head>
+  <body>
+    <div class="container">
+      <hr />
+      <button class="dark-mode btn btn-dark">Lights Out</button>
+      <button class="light-mode btn btn-danger hidden">Lights On</button>
+      <hr />
+      <h1>Peek-a-boo</h1>
+      <p>
+        <strong>Peek-a-boo</strong> is an ancient game riddled in mystery and
+        deceit. Though it appears to be an innocent children's pastime, you may
+        change your mind when you learn of its treacherous history.
+      </p>
+
+      <p>
+        <span id="show-image" class="clickable">Show Image</span>
+      </p>
+
+      <p>
+        <span id="hide-image" class="clickable">Hide Image</span>
+      </p>
+      <div id="walrus-showing">
+        <img src="img/walrus.jpeg" />
+      </div>
+
+      <hr />
+      <h1>What's your favorite color?</h1>
+      <p class="highlight-target">
+        Click a button to choose what color you'd like this page to be:
+      </p>
+
+      <button class="btn btn-success" id="green">Green</button>
+      <button class="btn btn-warning" id="yellow">Yellow</button>
+      <button class="btn btn-danger" id="red">Red</button>
+    </div>
+  </body>
+</html>

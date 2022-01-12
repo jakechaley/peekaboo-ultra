@@ -1,0 +1,42 @@
+img {
+  width: 38em;
+}
+#walrus-showing {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: blue;
+}
+
+#hide-image {
+  display: none;
+}
+
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+.dark-mode {
+  background-color: #3a3333;
+  color: #f0f8ff;
+}
+
+.highlight {
+  background-color: yellow;
+  border: 2px dotted black;
+  user-select: none;
+}
